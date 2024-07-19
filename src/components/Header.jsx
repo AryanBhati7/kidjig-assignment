@@ -22,7 +22,7 @@ function Header() {
     <nav className="fixed text-white top-0  font-custom z-30 w-full  flex items-center justify-between p-2 px-4 sm:px-6 lg:px-44 bg-transparent mx-auto backdrop-blur-lg">
       {!isMenuOpen && (
         <>
-          <div className="z-0 absolute -top-[19rem] right-[24rem] w-[30rem] h-[24rem] bg-gradient-to-r from-blue-500 to-blue-[#5e74e8] rounded-full blur-3xl opacity-50 pointer-events-none" />
+          <div className="z-0 absolute -top-[20rem] right-[20rem] w-[40rem] h-[24rem] bg-gradient-to-r from-blue-500 to-blue-[#5e74e8] rounded-full blur-3xl opacity-50 pointer-events-none" />
           <div className="z-0 absolute -top-[17rem] right-[6rem] w-[25rem] h-[32rem] bg-gradient-to-r from-blue-500 to-blue-[#5e74e8] rounded-full blur-3xl opacity-30 pointer-events-none" />
         </>
       )}
