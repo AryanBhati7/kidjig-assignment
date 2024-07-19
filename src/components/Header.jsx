@@ -66,7 +66,7 @@ function Header() {
       {/* Side Menu */}
       {isMenuOpen && (
         <div
-          className={`fixed top-0 right-0 min-h-screen w-64 bg-[#d4d4d4] transform ${
+          className={`fixed top-0 right-0 min-h-screen w-64 bg-[#919191] transform ${
             isMenuOpen ? "translate-x-0" : "hidden"
           } transition-transform duration-300 ease-in-out`}
         >
